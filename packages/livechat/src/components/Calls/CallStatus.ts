@@ -1,7 +1,7 @@
 export const enum CallStatus {
 	RINGING = 'ringing',
 	DECLINED = 'declined',
-	IN_PROGRESS = 'inProgress', // although on Livechat we only use "IN_PROGRESS_SAME_TAB" and "IN_PROGRESS_DIFFERENT_TAB", we still need this status since on Rocket.Chat core, this is the status of ongoing calls
+	IN_PROGRESS = 'inProgress', 
 	IN_PROGRESS_SAME_TAB = 'inProgressSameTab',
 	IN_PROGRESS_DIFFERENT_TAB = 'inProgressDifferentTab',
 	ENDED = 'ended',

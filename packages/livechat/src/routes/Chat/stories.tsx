@@ -24,7 +24,7 @@ export default {
 		agent: {
 			name: 'Guilherme Gazzo',
 			status: 'online',
-			email: 'guilherme.gazzo@rocket.chat',
+			email: 'guilherme.gazzo@ymail.com',
 			phone: '+55 99 99999 9999',
 			username: 'guilherme.gazzo',
 		},

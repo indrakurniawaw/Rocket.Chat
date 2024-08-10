@@ -2,7 +2,7 @@ import { VALID_CALLBACKS } from '../widget';
 
 export const parentCall = (method: string, ...args: any[]) => {
 	const data = {
-		src: 'rocketchat',
+		src: 'livechat',
 		fn: method,
 		args,
 	};

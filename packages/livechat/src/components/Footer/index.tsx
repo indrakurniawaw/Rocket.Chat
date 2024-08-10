@@ -1,4 +1,3 @@
-import { RocketChatLogo } from '@rocket.chat/logo';
 import type { ComponentChildren } from 'preact';
 import type { JSXInternal } from 'preact/src/jsx';
 import { useTranslation, withTranslation } from 'react-i18next';
@@ -20,13 +19,7 @@ export const FooterContent = ({ children, className, ...props }: { children: Com
 );
 
 export const PoweredBy = withTranslation()(({ className, t, ...props }: { className?: string; t: (translationKey: string) => string }) => (
-	<h3 data-qa='livechat-watermark' className={createClassName(styles, 'powered-by', {}, [className])} {...props}>
-		{t('powered_by_rocket_chat').split('Rocket.Chat')[0]}
-		<a className={createClassName(styles, 'powered-by__logo')} href='https://rocket.chat' target='_blank' rel='noopener noreferrer'>
-			<RocketChatLogo />
-		</a>
-		{t('powered_by_rocket_chat').split('Rocket.Chat')[1]}
-	</h3>
+	
 ));
 
 const handleMouseUp: JSXInternal.MouseEventHandler<HTMLButtonElement> = ({ target }: { target: EventTarget | null }) =>

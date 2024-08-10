@@ -42,7 +42,7 @@ WithLongTextContent.storyName = 'with long text content';
 export const WithTitleAndSubtitle: Story<ComponentProps<typeof Header>> = (args) => (
 	<Header {...args}>
 		<Content>
-			<Title>Rocket.Chat</Title>
+			<Title>Chat</Title>
 			<SubTitle>Livechat</SubTitle>
 		</Content>
 	</Header>
@@ -108,7 +108,7 @@ export const ForUserChat: Story<ComponentProps<typeof Header>> = (args) => (
 		</Picture>
 		<Content>
 			<Title>@guilherme.gazzo</Title>
-			<SubTitle>guilherme.gazzo@rocket.chat</SubTitle>
+			<SubTitle>guilherme.gazzo@ymail.com</SubTitle>
 		</Content>
 		<Actions>
 			<Action onClick={action('notifications')}>
@@ -132,7 +132,7 @@ export const WithCustomField: Story<ComponentProps<typeof Header>> = (args) => (
 		</Picture>
 		<Content>
 			<Title>Guilherme Gazzo</Title>
-			<SubTitle>guilherme.gazzo@rocket.chat</SubTitle>
+			<SubTitle>guilherme.gazzo@ymail.com</SubTitle>
 			<CustomField>+ 55 42423 24242</CustomField>
 		</Content>
 		<Actions>
@@ -168,7 +168,7 @@ export const WithCustomFieldAndAlert: Story<ComponentProps<typeof Header>> = (ar
 		</Picture>
 		<Content>
 			<Title>Guilherme Gazzo</Title>
-			<SubTitle>guilherme.gazzo@rocket.chat</SubTitle>
+			<SubTitle>guilherme.gazzo@ymail.com</SubTitle>
 			<CustomField>+ 55 42423 24242</CustomField>
 		</Content>
 		<Actions>
@@ -196,7 +196,7 @@ export const WithTheme: Story<ComponentProps<typeof Header>> = (args) => (
 		</Picture>
 		<Content>
 			<Title>Guilherme Gazzo</Title>
-			<SubTitle>guilherme.gazzo@rocket.chat</SubTitle>
+			<SubTitle>guilherme.gazzo@ymail.com</SubTitle>
 			<CustomField>+ 55 42423 24242</CustomField>
 		</Content>
 		<Actions>

@@ -41,9 +41,7 @@ _This is italic text_
 2. Consectetur adipiscing elit
 3. Integer molestie lorem at massa
 
-\`rocket.chat();\`
 
-https://rocket.chat
 `;
 
 const defaultUser = {

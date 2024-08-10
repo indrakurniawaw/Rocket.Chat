@@ -306,7 +306,7 @@ function onNewMessageHandler(event: MessageEvent<LivechatMessageEventData<HooksW
 		return;
 	}
 
-	if (!event.data.src || event.data.src !== 'rocketchat') {
+	if (!event.data.src || event.data.src !== 'livechat') {
 		return;
 	}
 
