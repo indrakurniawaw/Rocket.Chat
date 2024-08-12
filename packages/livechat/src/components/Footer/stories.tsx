@@ -33,6 +33,7 @@ export default {
 export const Simple: Story<ComponentProps<typeof Footer>> = (args) => (
 	<Footer {...args}>
 		<FooterContent>
+			<PoweredBy />
 		</FooterContent>
 	</Footer>
 );

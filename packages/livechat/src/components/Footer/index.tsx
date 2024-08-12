@@ -19,7 +19,9 @@ export const FooterContent = ({ children, className, ...props }: { children: Com
 );
 
 export const PoweredBy = withTranslation()(({ className, t, ...props }: { className?: string; t: (translationKey: string) => string }) => (
-	
+	<h3 data-qa='livechat-watermark' className={createClassName(styles, 'powered-by', {}, [className])} {...props}>
+		PoweredBy Katalis.app
+	</h3>
 ));
 
 const handleMouseUp: JSXInternal.MouseEventHandler<HTMLButtonElement> = ({ target }: { target: EventTarget | null }) =>

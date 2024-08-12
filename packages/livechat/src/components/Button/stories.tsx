@@ -23,7 +23,7 @@ export default {
 		badge: undefined,
 		icon: null,
 		img: undefined,
-		children: '',
+		children: 'Powered by Katalis.App',
 		onClick: action('clicked'),
 	},
 	argTypes: {

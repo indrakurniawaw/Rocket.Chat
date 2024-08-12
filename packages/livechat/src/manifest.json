@@ -1,6 +1,6 @@
 {
-  "name": "Livechat",
-  "short_name": "Livechat",
+  "name": "Katalis App",
+  "short_name": "Katalis App",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",

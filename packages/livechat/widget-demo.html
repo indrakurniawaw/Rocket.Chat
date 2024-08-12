@@ -42,21 +42,21 @@
 
 	<script>
 		(function(w, d, s, u) {
-			w.Chat = function(c) { w.Chat._.push(c) };
-			w.Chat._ = [];
-			w.Chat.url = u;
+			w.KatalisApp = function(c) { w.KatalisApp._.push(c) };
+			w.KatalisApp._ = [];
+			w.KatalisApp.url = u;
 			var h = d.getElementsByTagName(s)[0],
 				j = d.createElement(s);
 			j.async = true;
-			j.src = 'dist/livechat.min.js?_=' + Math.random();
+			j.src = 'dist/katalisapp.min.js?_=' + Math.random();
 			h.parentNode.insertBefore(j, h);
 		})(window, document, 'script', 'http://localhost:8080');
-		Chat(function() {
+		KatalisApp(function() {
 			this.setTheme({
 				color: '#04436A', // widget title background color
 				fontColor: '#FFFFFF', // widget title font color
 				iconColor: '#1d74f5', // widget icon color
-				title: "Welcome to livechat", // default widget title when the status of service is online
+				title: "Welcome to katalisapp", // default widget title when the status of service is online
 				offlineTitle: "Service is offline", // default widget title when the status of service is online
 			});
 		});

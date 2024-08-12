@@ -132,7 +132,7 @@ const config = (_env: any, args: webpack.WebpackOptionsNormalized): webpack.Conf
 				'process.env.NODE_ENV': JSON.stringify(args.mode === 'production' ? 'production' : 'development'),
 			}),
 			new HtmlWebpackPlugin({
-				title: 'Livechat',
+				title: 'Katalis App - Livechat',
 				chunks: ['polyfills', 'vendor', 'bundle'],
 				chunksSortMode: 'manual',
 			}),
@@ -162,7 +162,7 @@ const config = (_env: any, args: webpack.WebpackOptionsNormalized): webpack.Conf
 	{
 		...common(args),
 		entry: {
-			'livechat.min': _('./src/widget.ts'),
+			'katalisapp.min': _('./src/widget.ts'),
 		} as webpack.Entry,
 		output: {
 			path: _('./dist'),

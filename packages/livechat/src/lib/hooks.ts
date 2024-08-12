@@ -306,7 +306,7 @@ function onNewMessageHandler(event: MessageEvent<LivechatMessageEventData<HooksW
 		return;
 	}
 
-	if (!event.data.src || event.data.src !== 'livechat') {
+	if (!event.data.src || event.data.src !== 'katalisapp') {
 		return;
 	}
 

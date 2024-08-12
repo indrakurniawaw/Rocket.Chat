@@ -42,7 +42,7 @@ WithLongTextContent.storyName = 'with long text content';
 export const WithTitleAndSubtitle: Story<ComponentProps<typeof Header>> = (args) => (
 	<Header {...args}>
 		<Content>
-			<Title>Chat</Title>
+			<Title>Katalis app</Title>
 			<SubTitle>Livechat</SubTitle>
 		</Content>
 	</Header>

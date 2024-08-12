@@ -1,7 +1,7 @@
 Package.describe({
 	name: 'rocketchat:livechat',
 	version: '0.0.1',
-	summary: 'Livechat plugin',
+	summary: 'Katalisapp plugin',
 });
 
 Package.registerBuildPlugin({
