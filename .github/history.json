@@ -22086,7 +22086,7 @@
         },
         {
           "pr": "12942",
-          "title": "Convert rocketchat-livechat to main module structure",
+          "title": "Convert livechat to main module structure",
           "userLogin": "MarcosSpessatto",
           "milestone": "0.73.0",
           "contributors": [
@@ -26995,7 +26995,7 @@
         },
         {
           "pr": "13573",
-          "title": "Regression: Missing settings import at `packages/rocketchat-livechat/server/methods/saveAppearance.js`",
+          "title": "Regression: Missing settings import at `packages/livechat/server/methods/saveAppearance.js`",
           "userLogin": "MarcosSpessatto",
           "milestone": "1.0.0",
           "contributors": [
