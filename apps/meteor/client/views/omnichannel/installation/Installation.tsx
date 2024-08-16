@@ -14,10 +14,10 @@ const Installation = (): ReactElement => {
 	const setting = useSetting('Site_Url') as string;
 	const siteUrl = setting?.replace(/\/$/, '');
 
-	const installString = `<!-- Start of Rocket.Chat Livechat Script -->
+	const installString = `<!-- Start of Katalis.App Livechat Script -->
 	<script type="text/javascript">
 	(function(w, d, s, u) {
-		w.RocketChat = function(c) { w.RocketChat._.push(c) }; w.RocketChat._ = []; w.RocketChat.url = u;
+		w.KatalisApp = function(c) { w.KatalisApp._.push(c) }; w.KatalisApp._ = []; w.KatalisApp.url = u;
 		var h = d.getElementsByTagName(s)[0], j = d.createElement(s);
 		j.async = true; j.src = '${siteUrl}/livechat/livechat.min.js?_=201903270000';
 		h.parentNode.insertBefore(j, h);
